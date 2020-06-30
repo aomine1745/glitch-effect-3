@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://aomine1745.github.io/Img/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(50%);
+}
+.glitch {
+	position: absolute;
+	background-image: url(https://aomine1745.github.io/Img/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	transform: translate(-100px, -100px);
+	mix-blend-mode: overlay;
+	filter: contrast(2);
+}
